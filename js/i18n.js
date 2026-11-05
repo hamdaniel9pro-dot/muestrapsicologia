@@ -131,7 +131,7 @@
       "footer.college": "Nº colegiado: ejemplo",
       "footer.privacy": "Política de privacidad",
       "footer.legal": "Aviso legal",
-      "footer.disclaimer": "Web de muestra con datos ficticios. Diseño y desarrollo: [tu nombre aquí].",
+      "footer.disclaimer": "Web de muestra con datos ficticios. Diseño y desarrollo: Mohamed Hamdani.",
       "footer.imageCredit": "Imágenes: ilustraciones y degradados propios en CSS/SVG, sin fotografías de terceros."
     },
     en: {
@@ -262,7 +262,7 @@
       "footer.college": "Licence No.: sample",
       "footer.privacy": "Privacy policy",
       "footer.legal": "Legal notice",
-      "footer.disclaimer": "Sample website with fictional data. Design and development: [your name here].",
+      "footer.disclaimer": "Sample website with fictional data. Design and development: Mohamed Hamdani.",
       "footer.imageCredit": "Images: original CSS/SVG illustrations and gradients, no third-party photography."
     }
   };
