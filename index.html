@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta.title">Clara Ibáñez Soler, Psicóloga en Castellón de la Plana | Web de muestra</title>
+<meta name="description" data-i18n-attr="content:meta.description" content="Consulta de psicología de Clara Ibáñez Soler en Castellón de la Plana. Terapia individual, ansiedad y estrés, terapia de pareja y sesiones online. Web de muestra con datos ficticios.">
+<meta property="og:title" data-i18n-attr="content:meta.ogTitle" content="Clara Ibáñez Soler, Psicóloga">
+<meta property="og:description" data-i18n-attr="content:meta.ogDescription" content="Consulta de psicología en Castellón de la Plana. Terapia individual, ansiedad, pareja y sesiones online. Web de muestra con datos ficticios.">
+<meta property="og:type" content="website">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido" data-i18n="skip.link">Ir al contenido principal</a>
+
+<header class="site-header" id="inicio">
+  <div class="container header-inner">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="34" height="34" focusable="false">
+          <path d="M24 42c9-4 16-12 16-22a16 16 0 0 0-32 0c0 10 7 18 16 22Z" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M24 42V20M24 20c0-6 4-10 10-10M24 24c0-5-4-9-9-9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name" data-i18n="brand.name">Clara Ibáñez Soler</span>
+        <span class="brand-role" data-i18n="brand.role">Psicóloga</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+      <span class="nav-toggle-box">
+        <span></span><span></span><span></span>
+      </span>
+      <span class="sr-only" data-i18n="nav.menu">Menú</span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+        <li><a href="#servicios" data-i18n="nav.services">Servicios</a></li>
+        <li><a href="#primera-sesion" data-i18n="nav.firstSession">Primera sesión</a></li>
+        <li><a href="#como-trabajo" data-i18n="nav.howIWork">Cómo trabajo</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">Preguntas frecuentes</a></li>
+        <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+        <li><a class="nav-cta" href="#reserva" data-i18n="nav.booking">Reservar cita</a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button type="button" class="lang-btn is-active" id="langEs" translate="no" data-lang="es" aria-pressed="true">ES</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" class="lang-btn" id="langEn" translate="no" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="nav-backdrop" id="navBackdrop" hidden></div>
+
+<main id="contenido">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Introducción">
+    <div class="hero-decor" id="heroDecor" aria-hidden="true">
+      <svg viewBox="0 0 400 400" class="hero-leaf hero-leaf--1" focusable="false"><path d="M200 40c70 20 120 90 120 160s-50 130-120 150C130 330 80 270 80 200S130 60 200 40Z" fill="currentColor"/></svg>
+      <svg viewBox="0 0 400 400" class="hero-leaf hero-leaf--2" focusable="false"><path d="M200 40c70 20 120 90 120 160s-50 130-120 150C130 330 80 270 80 200S130 60 200 40Z" fill="currentColor"/></svg>
+    </div>
+    <div class="container hero-inner">
+      <p class="eyebrow reveal" data-i18n="hero.eyebrow">Psicología clínica · Castellón de la Plana</p>
+      <h1 class="reveal" data-i18n="hero.title">Un espacio tranquilo para pensar, sentir y avanzar</h1>
+      <p class="hero-lead reveal" data-i18n="hero.lead">Acompañamiento psicológico cercano y profesional, presencial u online, a tu ritmo.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-primary" href="#reserva" data-i18n="hero.cta1">Reservar una cita</a>
+        <a class="btn btn-ghost" href="#servicios" data-i18n="hero.cta2">Ver servicios</a>
+      </div>
+      <p class="hero-note reveal" data-i18n="hero.note">Nº colegiado: ejemplo</p>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section" id="sobre-mi" aria-labelledby="sobre-mi-title">
+    <div class="container about-grid">
+      <div class="about-media reveal" aria-hidden="true">
+        <div class="art-block art-block--sage">
+          <svg viewBox="0 0 200 200" class="art-icon" focusable="false">
+            <circle cx="100" cy="70" r="34" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M50 170c0-30 22-54 50-54s50 24 50 54" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="eyebrow reveal" data-i18n="about.eyebrow">Sobre mí</p>
+        <h2 class="reveal" id="sobre-mi-title" data-i18n="about.title">Clara Ibáñez Soler</h2>
+        <p class="reveal" data-i18n="about.p1">Soy psicóloga y trabajo con adultos que atraviesan momentos de ansiedad, estrés, cambios vitales o dificultades en la pareja. Mi forma de trabajar combina escucha activa, herramientas prácticas y respeto por el ritmo de cada persona.</p>
+        <p class="reveal" data-i18n="about.p2">Recibo en consulta en Castellón de la Plana y también ofrezco sesiones online por videollamada, para que la distancia o los horarios no sean un obstáculo.</p>
+        <ul class="about-facts reveal">
+          <li data-i18n="about.fact1">Nº colegiado: ejemplo</li>
+          <li data-i18n="about.fact2">Consulta en Castellón de la Plana</li>
+          <li data-i18n="about.fact3">Sesiones presenciales y online</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section section-alt" id="servicios" aria-labelledby="servicios-title">
+    <div class="container">
+      <p class="eyebrow reveal center" data-i18n="services.eyebrow">Áreas de trabajo</p>
+      <h2 class="reveal center" id="servicios-title" data-i18n="services.title">Servicios</h2>
+      <p class="section-lead reveal center" data-i18n="services.lead">Cada proceso es distinto. Estas son las principales áreas en las que puedo acompañarte.</p>
+
+      <div class="card-grid">
+        <article class="card reveal">
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false"><circle cx="24" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M10 40c0-10 6-16 14-16s14 6 14 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="services.card1.title">Terapia individual (adultos)</h3>
+          <p data-i18n="services.card1.text">Un espacio propio para trabajar sobre lo que te preocupa, entenderlo mejor y encontrar formas de avanzar.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false"><path d="M6 30c6-14 10 10 16-2s8 14 20-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 data-i18n="services.card2.title">Ansiedad y estrés</h3>
+          <p data-i18n="services.card2.text">Herramientas prácticas para comprender y gestionar la ansiedad, el estrés y la sobrecarga del día a día.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false"><circle cx="17" cy="20" r="7" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="31" cy="20" r="7" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M6 39c0-7 5-12 11-12M41 39c0-7-5-12-11-12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="services.card3.title">Terapia de pareja</h3>
+          <p data-i18n="services.card3.text">Un espacio compartido para mejorar la comunicación y trabajar las dificultades de la relación.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false"><rect x="7" y="12" width="26" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M33 20l8-5v18l-8-5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 data-i18n="services.card4.title">Terapia online</h3>
+          <p data-i18n="services.card4.text">Sesiones por videollamada con la misma cercanía que en consulta, desde donde te sea más cómodo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIMERA SESIÓN -->
+  <section class="section" id="primera-sesion" aria-labelledby="primera-sesion-title">
+    <div class="container">
+      <p class="eyebrow reveal center" data-i18n="first.eyebrow">Primer contacto</p>
+      <h2 class="reveal center" id="primera-sesion-title" data-i18n="first.title">Cómo es la primera sesión</h2>
+      <p class="section-lead reveal center" data-i18n="first.lead">Un primer encuentro sin compromiso, para conocernos y ver si puedo ayudarte.</p>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step-number" aria-hidden="true">1</span>
+          <h3 data-i18n="first.step1.title">Contacto inicial</h3>
+          <p data-i18n="first.step1.text">Me escribes o me llamas, me cuentas brevemente qué te trae a consulta y buscamos el día y hora que mejor te vengan.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-number" aria-hidden="true">2</span>
+          <h3 data-i18n="first.step2.title">Primera entrevista</h3>
+          <p data-i18n="first.step2.text">Hablamos con calma sobre tu situación, tus objetivos y cómo trabajo, presencial o por videollamada.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-number" aria-hidden="true">3</span>
+          <h3 data-i18n="first.step3.title">Plan personalizado</h3>
+          <p data-i18n="first.step3.text">Si decidimos seguir adelante, acordamos juntos un plan de trabajo adaptado a tu ritmo y tus necesidades.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CÓMO TRABAJO -->
+  <section class="section section-alt" id="como-trabajo" aria-labelledby="como-trabajo-title">
+    <div class="container how-grid">
+      <div>
+        <p class="eyebrow reveal" data-i18n="how.eyebrow">Mi enfoque</p>
+        <h2 class="reveal" id="como-trabajo-title" data-i18n="how.title">Cómo trabajo</h2>
+        <p class="reveal" data-i18n="how.p1">Trabajo desde un enfoque cercano y respetuoso, adaptando las herramientas a cada persona en lugar de aplicar fórmulas iguales para todos.</p>
+        <p class="reveal" data-i18n="how.p2">La confidencialidad y el ritmo de cada paciente son la base de todo el proceso.</p>
+      </div>
+      <ul class="how-list reveal">
+        <li>
+          <strong data-i18n="how.item1.title">Escucha sin prisa</strong>
+          <span data-i18n="how.item1.text">Cada sesión parte de lo que realmente necesitas traer ese día.</span>
+        </li>
+        <li>
+          <strong data-i18n="how.item2.title">Herramientas prácticas</strong>
+          <span data-i18n="how.item2.text">Recursos concretos para aplicar en tu día a día, no solo teoría.</span>
+        </li>
+        <li>
+          <strong data-i18n="how.item3.title">Confidencialidad</strong>
+          <span data-i18n="how.item3.text">Todo lo que compartes en consulta se trata con el máximo respeto y discreción.</span>
+        </li>
+        <li>
+          <strong data-i18n="how.item4.title">A tu ritmo</strong>
+          <span data-i18n="how.item4.text">Avanzamos según tus tiempos, sin prisas ni promesas de resultados concretos.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="container narrow">
+      <p class="eyebrow reveal center" data-i18n="faq.eyebrow">Dudas habituales</p>
+      <h2 class="reveal center" id="faq-title" data-i18n="faq.title">Preguntas frecuentes</h2>
+
+      <div class="accordion reveal" id="accordion">
+        <div class="accordion-item">
+          <h3>
+            <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-1" id="faq-btn-1">
+              <span data-i18n="faq.q1.q">¿Cuánto dura cada sesión?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="accordion-panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1" hidden>
+            <p data-i18n="faq.q1.a">Las sesiones individuales duran aproximadamente 50 minutos. Las de pareja suelen durar algo más; lo concretamos en el primer contacto.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3>
+            <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-2" id="faq-btn-2">
+              <span data-i18n="faq.q2.q">¿Las sesiones online funcionan igual que las presenciales?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="accordion-panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2" hidden>
+            <p data-i18n="faq.q2.a">Sí. Se realizan por videollamada, con la misma duración y confidencialidad que las presenciales. Solo necesitas una conexión estable y un espacio tranquilo.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3>
+            <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-3" id="faq-btn-3">
+              <span data-i18n="faq.q3.q">¿Cómo sé si necesito terapia?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="accordion-panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3" hidden>
+            <p data-i18n="faq.q3.a">No es necesario esperar a una situación extrema. Si algo te preocupa, te sobrepasa o quieres entenderte mejor, una primera conversación puede ayudarte a aclararlo.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3>
+            <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-4" id="faq-btn-4">
+              <span data-i18n="faq.q4.q">¿Es confidencial lo que hablamos en consulta?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="accordion-panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4" hidden>
+            <p data-i18n="faq.q4.a">Sí, la confidencialidad es un principio básico de la profesión, salvo las excepciones legales que me corresponde informarte si llegaran a darse.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3>
+            <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-5" id="faq-btn-5">
+              <span data-i18n="faq.q5.q">¿Cuántas sesiones necesitaré?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="accordion-panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5" hidden>
+            <p data-i18n="faq.q5.a">Depende de cada proceso y de tus objetivos. Lo revisamos juntos de forma periódica; no puedo garantizar un número fijo de sesiones ni un resultado concreto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVA -->
+  <section class="section section-alt" id="reserva" aria-labelledby="reserva-title">
+    <div class="container narrow">
+      <p class="eyebrow reveal center" data-i18n="booking.eyebrow">Pide tu cita</p>
+      <h2 class="reveal center" id="reserva-title" data-i18n="booking.title">Reserva de cita</h2>
+      <p class="section-lead reveal center" data-i18n="booking.lead">Rellena el formulario y te confirmaré la cita. Este formulario es una simulación: no se envían datos a ningún servidor.</p>
+
+      <form class="booking-form reveal" id="bookingForm" novalidate>
+        <!-- SIMULACIÓN: este formulario no envía datos a ningún servidor; solo valida y muestra una confirmación en pantalla. -->
+        <div class="form-row">
+          <div class="field">
+            <label for="f-nombre" data-i18n="booking.name">Nombre completo</label>
+            <input type="text" id="f-nombre" name="nombre" autocomplete="name" required minlength="2">
+            <p class="field-error" id="err-nombre" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="f-telefono" data-i18n="booking.phone">Teléfono</label>
+            <input type="tel" id="f-telefono" name="telefono" autocomplete="tel" required>
+            <p class="field-error" id="err-telefono" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="f-correo" data-i18n="booking.email">Correo electrónico</label>
+            <input type="email" id="f-correo" name="correo" autocomplete="email" required>
+            <p class="field-error" id="err-correo" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="f-modalidad" data-i18n="booking.modality">Modalidad</label>
+            <select id="f-modalidad" name="modalidad" required>
+              <option value="" data-i18n="booking.modalitySelect">Selecciona una opción</option>
+              <option value="presencial" data-i18n="booking.modalityInPerson">Presencial</option>
+              <option value="online" data-i18n="booking.modalityOnline">Online (videollamada)</option>
+            </select>
+            <p class="field-error" id="err-modalidad" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="f-dia" data-i18n="booking.day">Día</label>
+            <select id="f-dia" name="dia" required>
+              <option value="" data-i18n="booking.daySelect">Selecciona un día</option>
+              <option value="lunes" data-i18n="days.monday">Lunes</option>
+              <option value="martes" data-i18n="days.tuesday">Martes</option>
+              <option value="miercoles" data-i18n="days.wednesday">Miércoles</option>
+              <option value="jueves" data-i18n="days.thursday">Jueves</option>
+              <option value="viernes" data-i18n="days.friday">Viernes</option>
+              <option value="sabado" data-i18n="days.saturday">Sábado</option>
+              <option value="domingo" data-i18n="days.sunday">Domingo</option>
+            </select>
+            <p class="field-error" id="err-dia" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="f-hora" data-i18n="booking.time">Hora</label>
+            <select id="f-hora" name="hora" required disabled>
+              <option value="" data-i18n="booking.timeSelectFirst">Elige primero un día</option>
+            </select>
+            <p class="field-error" id="err-hora" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="f-motivo" data-i18n="booking.reason">Motivo de la consulta (opcional)</label>
+          <textarea id="f-motivo" name="motivo" rows="3"></textarea>
+        </div>
+
+        <div class="field field-checkbox">
+          <input type="checkbox" id="f-privacidad" name="privacidad" required>
+          <label for="f-privacidad">
+            <span data-i18n="booking.privacyPre">He leído y acepto la</span>
+            <a href="#privacidad" data-i18n="booking.privacyLink">política de privacidad</a>.
+          </label>
+          <p class="field-error" id="err-privacidad" role="alert"></p>
+        </div>
+
+        <button type="submit" class="btn btn-primary" data-i18n="booking.submit">Solicitar cita</button>
+
+        <p class="form-confirmation" id="formConfirmation" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto" aria-labelledby="contacto-title">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow reveal" data-i18n="contact.eyebrow">Contacto</p>
+        <h2 class="reveal" id="contacto-title" data-i18n="contact.title">Hablemos</h2>
+        <p class="reveal" data-i18n="contact.lead">Si tienes dudas antes de reservar, puedes escribirme o llamarme directamente.</p>
+        <ul class="contact-list reveal">
+          <li>
+            <span class="contact-label" data-i18n="contact.addressLabel">Dirección</span>
+            <span data-i18n="contact.addressValue">Calle Mayor, 12, 1ºA — 12001 Castellón de la Plana</span>
+          </li>
+          <li>
+            <span class="contact-label" data-i18n="contact.phoneLabel">Teléfono</span>
+            <span>964 000 000</span>
+          </li>
+          <li>
+            <span class="contact-label" data-i18n="contact.emailLabel">Correo</span>
+            <span>info@clarapsicologia-ejemplo.es</span>
+          </li>
+          <li>
+            <span class="contact-label" data-i18n="contact.hoursLabel">Horario</span>
+            <span data-i18n="contact.hoursValue">Lunes a viernes, 10:00–14:00 y 16:00–20:00</span>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-map reveal" aria-hidden="true">
+        <div class="art-block art-block--slate">
+          <svg viewBox="0 0 200 200" class="art-icon" focusable="false">
+            <path d="M100 30c30 0 50 22 50 48 0 36-50 86-50 86s-50-50-50-86c0-26 20-48 50-48Z" fill="none" stroke="currentColor" stroke-width="3"/>
+            <circle cx="100" cy="78" r="16" fill="none" stroke="currentColor" stroke-width="3"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEGAL -->
+  <section class="section section-legal" id="privacidad" aria-labelledby="privacidad-title">
+    <div class="container narrow">
+      <h2 id="privacidad-title" data-i18n="privacy.title">Política de privacidad (ejemplo)</h2>
+      <p data-i18n="privacy.p1">Este texto es un ejemplo meramente ilustrativo para una web de muestra. En un sitio real, aquí se detallaría quién trata los datos, con qué finalidad, durante cuánto tiempo y qué derechos tiene la persona usuaria conforme al RGPD y la LOPDGDD.</p>
+      <p data-i18n="privacy.p2">Los datos indicados en el formulario de reserva de esta web de muestra no se envían ni almacenan en ningún servidor: el envío es una simulación con fines de demostración.</p>
+    </div>
+  </section>
+
+  <section class="section section-legal section-alt" id="aviso-legal" aria-labelledby="aviso-legal-title">
+    <div class="container narrow">
+      <h2 id="aviso-legal-title" data-i18n="legal.title">Aviso legal (ejemplo)</h2>
+      <p data-i18n="legal.p1">Titular de ejemplo: Clara Ibáñez Soler. Nº de colegiado: ejemplo. Domicilio profesional de ejemplo: Calle Mayor, 12, 1ºA, 12001 Castellón de la Plana.</p>
+      <p data-i18n="legal.p2">Esta web es una muestra de diseño y desarrollo creada con fines de demostración. Todos los datos, nombres, cifras y textos son ficticios y no corresponden a una persona, consulta o servicio real.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <span class="brand-name" data-i18n="brand.name">Clara Ibáñez Soler</span>
+      <p data-i18n="footer.role">Psicóloga · Castellón de la Plana</p>
+      <p data-i18n="footer.college">Nº colegiado: ejemplo</p>
+    </div>
+    <nav aria-label="Enlaces legales">
+      <ul class="footer-links">
+        <li><a href="#privacidad" data-i18n="footer.privacy">Política de privacidad</a></li>
+        <li><a href="#aviso-legal" data-i18n="footer.legal">Aviso legal</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <p class="footer-disclaimer" data-i18n="footer.disclaimer">Web de muestra con datos ficticios. Diseño y desarrollo: [tu nombre aquí].</p>
+    <p class="footer-credit" data-i18n="footer.imageCredit">Imágenes: ilustraciones y degradados propios en CSS/SVG, sin fotografías de terceros.</p>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
