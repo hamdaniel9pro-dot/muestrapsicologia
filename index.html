@@ -276,85 +276,19 @@
 
   <!-- RESERVA -->
   <section class="section section-alt" id="reserva" aria-labelledby="reserva-title">
-    <div class="container narrow">
+    <div class="container">
       <p class="eyebrow reveal center" data-i18n="booking.eyebrow">Pide tu cita</p>
-      <h2 class="reveal center" id="reserva-title" data-i18n="booking.title">Reserva de cita</h2>
-      <p class="section-lead reveal center" data-i18n="booking.lead">Rellena el formulario y te confirmaré la cita. Este formulario es una simulación: no se envían datos a ningún servidor.</p>
+      <h2 class="reveal center" id="reserva-title" data-i18n="booking.title">Pida su primera consulta</h2>
+      <p class="section-lead reveal center" data-i18n="booking.lead">Elija día y hora. Solo le pedimos su nombre y su email. No es necesario que nos cuente el motivo de la consulta.</p>
 
-      <form class="booking-form reveal" id="bookingForm" novalidate>
-        <!-- SIMULACIÓN: este formulario no envía datos a ningún servidor; solo valida y muestra una confirmación en pantalla. -->
-        <div class="form-row">
-          <div class="field">
-            <label for="f-nombre" data-i18n="booking.name">Nombre completo</label>
-            <input type="text" id="f-nombre" name="nombre" autocomplete="name" required minlength="2">
-            <p class="field-error" id="err-nombre" role="alert"></p>
-          </div>
-          <div class="field">
-            <label for="f-telefono" data-i18n="booking.phone">Teléfono</label>
-            <input type="tel" id="f-telefono" name="telefono" autocomplete="tel" required>
-            <p class="field-error" id="err-telefono" role="alert"></p>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="field">
-            <label for="f-correo" data-i18n="booking.email">Correo electrónico</label>
-            <input type="email" id="f-correo" name="correo" autocomplete="email" required>
-            <p class="field-error" id="err-correo" role="alert"></p>
-          </div>
-          <div class="field">
-            <label for="f-modalidad" data-i18n="booking.modality">Modalidad</label>
-            <select id="f-modalidad" name="modalidad" required>
-              <option value="" data-i18n="booking.modalitySelect">Selecciona una opción</option>
-              <option value="presencial" data-i18n="booking.modalityInPerson">Presencial</option>
-              <option value="online" data-i18n="booking.modalityOnline">Online (videollamada)</option>
-            </select>
-            <p class="field-error" id="err-modalidad" role="alert"></p>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="field">
-            <label for="f-dia" data-i18n="booking.day">Día</label>
-            <select id="f-dia" name="dia" required>
-              <option value="" data-i18n="booking.daySelect">Selecciona un día</option>
-              <option value="lunes" data-i18n="days.monday">Lunes</option>
-              <option value="martes" data-i18n="days.tuesday">Martes</option>
-              <option value="miercoles" data-i18n="days.wednesday">Miércoles</option>
-              <option value="jueves" data-i18n="days.thursday">Jueves</option>
-              <option value="viernes" data-i18n="days.friday">Viernes</option>
-              <option value="sabado" data-i18n="days.saturday">Sábado</option>
-              <option value="domingo" data-i18n="days.sunday">Domingo</option>
-            </select>
-            <p class="field-error" id="err-dia" role="alert"></p>
-          </div>
-          <div class="field">
-            <label for="f-hora" data-i18n="booking.time">Hora</label>
-            <select id="f-hora" name="hora" required disabled>
-              <option value="" data-i18n="booking.timeSelectFirst">Elige primero un día</option>
-            </select>
-            <p class="field-error" id="err-hora" role="alert"></p>
-          </div>
-        </div>
-
-        <div class="field">
-          <label for="f-motivo" data-i18n="booking.reason">Motivo de la consulta (opcional)</label>
-          <textarea id="f-motivo" name="motivo" rows="3"></textarea>
-        </div>
-
-        <div class="field field-checkbox">
-          <input type="checkbox" id="f-privacidad" name="privacidad" required>
-          <label for="f-privacidad">
-            <span data-i18n="booking.privacyPre">He leído y acepto la</span>
-            <a href="#privacidad" data-i18n="booking.privacyLink">política de privacidad</a>.
-          </label>
-          <p class="field-error" id="err-privacidad" role="alert"></p>
-        </div>
-
-        <button type="submit" class="btn btn-primary" data-i18n="booking.submit">Solicitar cita</button>
-
-        <p class="form-confirmation" id="formConfirmation" role="status" hidden></p>
-      </form>
+      <div class="booking-calendar reveal">
+        <iframe
+          src="https://cal.com/clara-ibanez-muestra-dpta4d/primera-consulta?embed=true&layout=month_view"
+          title="Calendario para reservar la primera consulta"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <p class="booking-note reveal" data-i18n="booking.healthNote">Por favor, no escriba datos de salud en ningún campo.</p>
     </div>
   </section>
 

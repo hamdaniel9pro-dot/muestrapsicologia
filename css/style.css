@@ -484,89 +484,28 @@ img, svg { max-width: 100%; display: block; }
 }
 .accordion-panel p { margin: 0; font-size: 0.95rem; }
 
-/* Booking form */
-.booking-form {
-  background: var(--color-surface);
+/* Booking calendar (Cal.com embed) */
+.booking-calendar {
+  max-width: 900px;
+  margin: 0 auto;
   border-radius: var(--radius-lg);
-  padding: 36px;
+  overflow: hidden;
   border: 1px solid var(--color-border);
+  background: var(--color-surface);
 }
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-.field { margin-bottom: 18px; }
-.field label {
+.booking-calendar iframe {
   display: block;
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--color-text);
-  margin-bottom: 6px;
-}
-.field input[type="text"],
-.field input[type="tel"],
-.field input[type="email"],
-.field select,
-.field textarea {
   width: 100%;
-  padding: 11px 14px;
-  border-radius: 10px;
-  border: 1px solid var(--color-border);
-  background: #fff;
-  color: var(--color-text);
-  font-size: 0.95rem;
-  font-family: var(--font-body);
-  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  height: 720px;
+  min-height: 650px;
+  border: 0;
 }
-.field input:focus, .field select:focus, .field textarea:focus {
-  border-color: var(--color-sage);
-  box-shadow: 0 0 0 3px var(--color-sage-pale);
-}
-.field select {
-  color: var(--color-text);
-  background-color: #fff;
-}
-.field select option {
-  color: var(--color-text);
-  background-color: #fff;
-}
-.field textarea { resize: vertical; min-height: 90px; }
-
-.field.is-invalid input,
-.field.is-invalid select,
-.field.is-invalid textarea {
-  border-color: var(--color-error);
-}
-.field-error {
-  color: var(--color-error);
-  font-size: 0.82rem;
-  margin: 6px 0 0;
-  min-height: 1em;
-}
-
-.field-checkbox {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 10px;
-}
-.field-checkbox input {
-  margin-top: 4px;
-  width: 18px;
-  height: 18px;
-  accent-color: var(--color-sage-dark);
-}
-.field-checkbox label { font-size: 0.9rem; font-weight: 400; margin: 0; }
-
-.form-confirmation {
-  margin-top: 18px;
-  padding: 14px 18px;
-  border-radius: 10px;
-  background: var(--color-sage-pale);
-  color: var(--color-sage-dark);
-  font-weight: 600;
-  font-size: 0.92rem;
+.booking-note {
+  max-width: 900px;
+  margin: 14px auto 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-text-soft);
 }
 
 /* Contact */
@@ -693,8 +632,7 @@ img, svg { max-width: 100%; display: block; }
   .hero { padding: 130px 0 80px; }
   .section { padding: 72px 0; }
   .card-grid { grid-template-columns: 1fr; }
-  .form-row { grid-template-columns: 1fr; }
-  .booking-form { padding: 24px 20px; }
+  .booking-calendar iframe { height: 650px; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .hero-actions .btn { text-align: center; }
   .footer-grid { flex-direction: column; }
