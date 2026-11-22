@@ -632,7 +632,7 @@ img, svg { max-width: 100%; display: block; }
   .hero { padding: 130px 0 80px; }
   .section { padding: 72px 0; }
   .card-grid { grid-template-columns: 1fr; }
-  .booking-calendar iframe { height: 650px; }
+  .booking-calendar iframe { height: 860px; min-height: 860px; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .hero-actions .btn { text-align: center; }
   .footer-grid { flex-direction: column; }
