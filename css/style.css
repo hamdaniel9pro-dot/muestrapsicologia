@@ -637,3 +637,16 @@ img, svg { max-width: 100%; display: block; }
   .hero-actions .btn { text-align: center; }
   .footer-grid { flex-direction: column; }
 }
+
+/* ---------- Página de información legal ---------- */
+.legal-main { padding-top: 72px; min-height: 70vh; }
+.legal-main .section-legal:first-child { padding-top: 56px; }
+.legal-back {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: var(--color-sage-dark);
+}
+.legal-lang { padding: 0; border: 0; width: auto; }
+.legal-page .site-footer .container { text-align: left; }
+.legal-page .section-legal[id] { scroll-margin-top: 80px; }
